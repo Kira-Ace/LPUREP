@@ -1,4 +1,4 @@
-#simple sequential search
+# Legaspi, Jazztinn Kyle G. | CS 101
 
 alist = [1, 3, 5, 7, 9, 11, 13, 15, 4]
 if int(input("enter number:")) in alist:
@@ -19,6 +19,6 @@ x = int(input("enter number:"))
 result = linearSearch(anotherlist, x)
 
 if result != -1:
-    print("Found at index", result)
+    print("found at index:", result)
 else:
     print("not found!")
