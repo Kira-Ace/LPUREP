@@ -1,7 +1,7 @@
 name = input("What's your name? ")
 
 match name:
-    case "Aegon" | "Egg" | "Rhaenyra":
+    case "Aegon" | "Egg" | "Rhaenyra" | "Daenarys":
         print("Targaryen")
     case "Lyonel" | "Robert": 
         print("Baratheon")
