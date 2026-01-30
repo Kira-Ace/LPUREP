@@ -2,6 +2,7 @@
 data = ['A', 'X']  
 search_term = input("Search for?: ")
 j = 0
+
 while j < len(data) and data[j] != search_term:
     j += 1
 if j < len(data):
